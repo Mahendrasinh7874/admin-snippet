@@ -7,7 +7,7 @@ const User = () => {
         <div>
             <Flex align='center' justify='space-between'>
 
-                <Typography.Title level={3} className='tracking-wider'> User</Typography.Title>
+                <Typography.Title level={3} className='tracking-wider'> User Module </Typography.Title>
                 <Link to='/create-user'> <Button > Create User</Button></Link>
             </Flex>
         </div>
