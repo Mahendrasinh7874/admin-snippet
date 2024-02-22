@@ -100,7 +100,7 @@ const MainLayout = ({ children }) => {
                 <Menu
                     theme={"light"}
                     mode="inline"
-                    defaultSelectedKeys={[key]}
+                    selectedKeys={[key]}
                     items={items}
                 />
             </Sider>
