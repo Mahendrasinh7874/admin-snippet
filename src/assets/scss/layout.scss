@@ -1,0 +1,17 @@
+#login-container {
+  .login-form-button {
+    border: 1px solid $border-color;
+    height: 100%;
+    min-width: 100px;
+    padding: 6px 10px !important;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      background-color: $primary;
+      color: white;
+    }
+  }
+}
